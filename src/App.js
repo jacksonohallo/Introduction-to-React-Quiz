@@ -16,8 +16,8 @@ const users = [
 function Child() {
   return <div>This is children content</div>;
 }
-/**
-  Challenge: Uncomment this code to complete quiz
+
+  // Challenge: Uncomment this code to complete quiz
 
 function Child() {
   return (
@@ -30,7 +30,9 @@ function Child() {
 
 function Parent() {
   const [value, setValue] = React.useState(
+    
     "I need to be updated from my child"
+    
   );
 
   return (
@@ -47,8 +49,7 @@ function Parent() {
     </>
   );
 }
-Uncomment this to tackle quiz
-**/
+// Uncomment this to tackle quiz
 
 // Comment out after completion
 function Parent() {
